@@ -1,0 +1,25 @@
+body {
+  margin: 20px;
+}
+
+/* Two column layout https://www.w3schools.com/howto/howto_css_two_columns.asp */
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Avoid images or videos bleeding over column */
+.column > img, video {
+  width: 100%;
+}
+
+/* Start out hidden */
+.column > div, video {
+  visibility: hidden;
+}
