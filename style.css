@@ -1,17 +1,25 @@
 body {
-  margin: 20px;
+  margin: 30px;
+  /* default text settings */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* Type weight 100-900 in 100 increments; Medium is 500: http://www.webtype.com/info/articles/fonts-weights/ */
+  font-weight: 500;
+  font-size: 16px;
 }
 
 /* Two column layout https://www.w3schools.com/howto/howto_css_two_columns.asp */
 .row {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .column {
   flex: 50%;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  /* For div overlay over image */
+  position: relative;
 }
 
 /* Avoid images or videos bleeding over column */
@@ -22,4 +30,14 @@ body {
 /* Start out hidden */
 .column > div, video {
   visibility: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: green;
+  pointer-events: none;
+  font-size: 200%;
 }
