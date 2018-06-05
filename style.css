@@ -28,7 +28,7 @@ body {
 }
 
 /* Start out hidden */
-.column > div, video {
+.column > div, video, iframe {
   visibility: hidden;
 }
 
@@ -39,5 +39,5 @@ body {
   transform: translate(-50%, -50%);
   color: green;
   pointer-events: none;
-  font-size: 200%;
+  font-size: 150%;
 }
