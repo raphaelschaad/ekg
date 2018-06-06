@@ -12,10 +12,10 @@
     <div class="row">
       <div class="column">
         <img onmouseover="show('diagnosis-regular')" onmouseout="hide('diagnosis-regular')" src="assets/1-regular.jpg">
-        <div class="overlay diagnosis-regular">Regular</div>
+        <div class="overlay diagnosis-regular" style="visibility: hidden;">Regular</div>
       </div>
       <div class="column">
-        <video class="diagnosis-regular" autoplay loop muted>
+        <video class="diagnosis-regular" style="visibility: hidden;" autoplay loop muted>
           <source src="assets/1-regular.mp4" type="video/mp4">
         </video>
       </div>
@@ -23,10 +23,10 @@
     <div class="row">
       <div class="column">
         <img onmouseover="show('diagnosis-atrial-fibrillation')" onmouseout="hide('diagnosis-atrial-fibrillation')" src="assets/2-atrial-fibrillation.jpg">
-        <div class="overlay diagnosis-atrial-fibrillation">Atrial Fibrillation</div>
+        <div class="overlay diagnosis-atrial-fibrillation" style="visibility: hidden;">Atrial Fibrillation</div>
       </div>
       <div class="column">
-        <video class="diagnosis-atrial-fibrillation" autoplay loop muted>
+        <video class="diagnosis-atrial-fibrillation" style="visibility: hidden;" autoplay loop muted>
           <source src="assets/2-atrial-fibrillation.mp4" type="video/mp4">
         </video>
       </div>
@@ -34,10 +34,10 @@
     <div class="row">
       <div class="column">
         <img onmouseover="show('diagnosis-atrial-flutter')" onmouseout="hide('diagnosis-atrial-flutter')" src="assets/3-atrial-flutter.jpg">
-        <div class="overlay diagnosis-atrial-flutter">Atrial Flutter</div>
+        <div class="overlay diagnosis-atrial-flutter" style="visibility: hidden;">Atrial Flutter</div>
       </div>
       <div class="column">
-        <video class="diagnosis-atrial-flutter" autoplay loop muted>
+        <video class="diagnosis-atrial-flutter" style="visibility: hidden;" autoplay loop muted>
           <source src="assets/3-atrial-flutter.mp4" type="video/mp4">
         </video>
       </div>
@@ -45,10 +45,10 @@
     <div class="row">
       <div class="column">
         <img onmouseover="show('diagnosis-ventricular-tachycardia')" onmouseout="hide('diagnosis-ventricular-tachycardia')" src="assets/4-ventricular-tachycardia.jpg">
-        <div class="overlay diagnosis-ventricular-tachycardia">Ventricular Tachycardia</div>
+        <div class="overlay diagnosis-ventricular-tachycardia" style="visibility: hidden;">Ventricular Tachycardia</div>
       </div>
       <div class="column">
-        <video class="diagnosis-ventricular-tachycardia" autoplay loop muted>
+        <video class="diagnosis-ventricular-tachycardia" style="visibility: hidden;" autoplay loop muted>
           <source src="assets/4-ventricular-tachycardia.mp4" type="video/mp4">
         </video>
       </div>
@@ -56,31 +56,31 @@
     <div class="row">
       <div class="column">
         <img onmouseover="show('diagnosis-hypertrophy')" onmouseout="hide('diagnosis-hypertrophy')" src="assets/5-hypertrophy.jpg">
-        <div class="overlay diagnosis-hypertrophy">Hypertrophy</div>
+        <div class="overlay diagnosis-hypertrophy" style="visibility: hidden;">Hypertrophy</div>
       </div>
       <div class="column">
-        <video class="diagnosis-hypertrophy" autoplay loop muted>
+        <video class="diagnosis-hypertrophy" style="visibility: hidden;" autoplay loop muted>
           <source src="assets/5-hypertrophy.mp4" type="video/mp4">
         </video>
       </div>
     </div>
     <div class="row">
       <div class="column">
-        <img onmouseover="show('diagnosis-anterior-infarct')" onmouseout="hide('diagnosis-anterior-infarct')" src="assets/6-anterior-infarct.jpg">
-        <div class="overlay diagnosis-anterior-infarct">Anterior Infarct</div>
+        <img onclick="toggleVisibility('diagnosis-anterior-infarct')" src="assets/6-anterior-infarct.jpg">
+        <div class="overlay diagnosis-anterior-infarct" style="visibility: hidden;">Anterior Infarct</div>
       </div>
       <div class="column">
-        <iframe class="diagnosis-anterior-infarct" src="https://sketchfab.com/models/d73eab7ebe9f4d0abe08ad850e2ad52d/embed?autospin=0.1&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allow="autoplay">
+        <iframe class="diagnosis-anterior-infarct" style="visibility: hidden;" src="https://sketchfab.com/models/d73eab7ebe9f4d0abe08ad850e2ad52d/embed?autospin=0.1&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allow="autoplay">
         </iframe>
       </div>
     </div>
     <div class="row">
       <div class="column">
-        <img onmouseover="show('diagnosis-inferior-flutter')" onmouseout="hide('diagnosis-inferior-flutter')" src="assets/7-inferior-flutter.jpg">
-        <div class="overlay diagnosis-inferior-flutter">Inferior Flutter</div>
+        <img onclick="toggleVisibility('diagnosis-inferior-flutter')" src="assets/7-inferior-flutter.jpg">
+        <div class="overlay diagnosis-inferior-flutter" style="visibility: hidden;">Inferior Flutter</div>
       </div>
       <div class="column">
-        <iframe class="diagnosis-inferior-flutter" src="https://sketchfab.com/models/5153724b796943d6a4c31b2b033efffa/embed?autospin=0.1&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allow="autoplay">
+        <iframe class="diagnosis-inferior-flutter" style="visibility: hidden;" src="https://sketchfab.com/models/5153724b796943d6a4c31b2b033efffa/embed?autospin=0.1&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allow="autoplay">
         </iframe>
       </div>
     </div>

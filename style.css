@@ -30,11 +30,6 @@ body {
   width: 100%;
 }
 
-/* Start out hidden */
-.column > div, video, iframe {
-  visibility: hidden;
-}
-
 .overlay {
   position: absolute;
   top: 50%;
